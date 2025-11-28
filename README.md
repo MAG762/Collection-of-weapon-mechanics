@@ -9,10 +9,10 @@
 
  ShellMesh: компонент статической сетки, представляющий визуальное представление снаряда.
 
- RaycastDistance, MainDamage, ExplosionRadius, CenterDamage, EdgeDamage, EdgeDamageRadius: параметры, определяющие влияние снаряда и взрыва.
+ RaycastDistance, MainDamage, ExplosionRadius, CenterDamage, EdgeDamage, EdgeDamageRadius: параметры, parameters that determine the impact of the projectile and explosion.
 
 * Методы:
 
- OnHit: вызывается при столкновении снаряда с другим объектом. Выполняет raycast, чтобы уничтожить объект на расстоянии 400 мм и создает взрыв в месте удара.
+ OnHit: called when a projectile collides with another object. Performs a raycast to destroy an object at a distance of 400 mm and creates an explosion at the point of impact.
 
- CreateExplosion: визуализирует взрыв и наносит урон всем актерам в определенной области, рассчитывая урон в зависимости от расстояния до центра взрыва.
+ CreateExplosion: visualizes an explosion and deals damage to all actors in a certain area, calculating damage depending on the distance to the center of the explosion.
