@@ -13,6 +13,6 @@
 
 * Methods:
 
- OnHit: Triggered when a projectile collides with another object. Performs a beam attack that destroys an object at a distance of 400 mm and creates an explosive wave that causes damage, as the distance from the center of the explosion increases, the damage decreases.
+ OnHit: Triggered when a projectile collides with another object. Performs a Raycast attack that destroys an object at a distance of 400 mm and creates an explosive wave that causes damage, as the distance from the center of the explosion increases, the damage decreases.
 
  CreateExplosion: visualizes an explosion and deals damage to all actors in a certain area, calculating damage depending on the distance to the center of the explosion.
