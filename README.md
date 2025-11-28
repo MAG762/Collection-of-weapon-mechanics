@@ -7,7 +7,7 @@
 
 * Свойства:
 
- ShellMesh: компонент статической сетки, представляющий визуальное представление снаряда.
+ ShellMesh: a component of a static grid representing a visual representation of a projectile.
 
  RaycastDistance, MainDamage, ExplosionRadius, CenterDamage, EdgeDamage, EdgeDamageRadius: параметры, parameters that determine the impact of the projectile and explosion.
 
