@@ -5,13 +5,13 @@
 
 ## 2 HEAT projectile
 
-* Свойства:
+* Properties:
 
  ShellMesh: a component of a static grid representing a visual representation of a projectile.
 
  RaycastDistance, MainDamage, ExplosionRadius, CenterDamage, EdgeDamage, EdgeDamageRadius: параметры, parameters that determine the impact of the projectile and explosion.
 
-* Методы:
+* Methods:
 
  OnHit: called when a projectile collides with another object. Performs a raycast to destroy an object at a distance of 400 mm and creates an explosion at the point of impact.
 
