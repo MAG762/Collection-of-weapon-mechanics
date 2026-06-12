@@ -39,6 +39,12 @@ if (ImpactAngleDeg > 75.f && PenetrationDepth > 0.f)
     return;
 }
 // If condition not met: proceed with normal hit handling / Если условие не выполнено: продолжаем обычную обработку попадания
+
+
+
+
+
+
 //2
 #pragma once
 
@@ -242,6 +248,8 @@ void ACumulativeShell::CreateExplosion(FVector Location)
         }
     }
 }
+
+
 // BaseHitscanWeapon.h
 #pragma once
 
@@ -739,6 +747,8 @@ void ABaseHitscanWeapon::FinishReload()
     // Optional: broadcast reload complete / Опционально: уведомляем о завершении перезарядки
     // OnReloadComplete.Broadcast();
 }
+
+
 // WeaponAttachmentSystem.h
 #pragma once
 
@@ -801,6 +811,8 @@ protected:
     // Apply stats to weapon / Применение характеристик к оружию
     void ApplyStatsToWeapon(ABaseHitscanWeapon* Weapon);
 };
+
+
 // WeaponLibrary.h - Static helper functions / Статические вспомогательные функции
 #pragma once
 
