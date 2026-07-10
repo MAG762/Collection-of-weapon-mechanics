@@ -891,3 +891,31 @@ FVector2D UWeaponLibrary::SmoothRecoilRecovery(
     float Alpha = 1.0f - FMath::Exp(-RecoverySpeed * DeltaTime);
     return FMath::Lerp(CurrentRecoil, TargetRecoil, Alpha);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
